@@ -5,7 +5,7 @@ node {
         }
    
         stage ('Run') {
-          //sh "docker-compose --version"
+          sh "docker-compose --version"
           sh "docker-compose up -d"
         }
      }
